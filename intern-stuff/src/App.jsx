@@ -1,16 +1,13 @@
-import { useState } from "react";
+import React from "react";
 import Header from "./components/header";
-import DocumentList from "./components/documentList";
-import "./App.css";
+import Home from "./components/home";
+import { DarkThemeToggle, Flowbite } from "flowbite-react";
 
 function App() {
   return (
     <>
       <Header />
-      <DocumentList />
-      <h1 className="text-3xl font-bold underline text-red-700">
-        Hello world!
-      </h1>
+      <Home />
     </>
   );
 }
