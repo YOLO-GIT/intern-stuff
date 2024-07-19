@@ -2,76 +2,129 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@layer components {
+    body::-webkit-scrollbar {
+        display: none;
+    }
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+    .background-animate {
+        background-size: 400%;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+        -webkit-animation: AnimationName 5s ease infinite;
+        -moz-animation: AnimationName 5s ease infinite;
+        animation: AnimationName 5s ease infinite;
+    }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
+    @keyframes AnimationName {
 
-a:hover {
-  color: #535bf2;
-}
+        0%,
+        100% {
+            background-position: 0% 50%;
+        }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+        50% {
+            background-position: 100% 50%;
+        }
+    }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+    /* Word seperator */
+    #text:has(.fancy:hover) .word:not(.fancy:hover) {
+        opacity: 0.2;
+    }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
+    .fancy span {
+        display: inline-block;
+    }
 
-button:hover {
-  border-color: #646cff;
-}
+    .fancy>.outer {
+        transition: transform 350ms ease;
+    }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+    .fancy:hover>.outer {
+        transition-duration: 800ms;
+    }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+    /* Before  */
 
-  a:hover {
-    color: #747bff;
-  }
+    .fancy>.outer:nth-child(1) {
+        transform: translate(80%, -60%) rotate(8deg);
+    }
 
-  button {
-    background-color: #f9f9f9;
-  }
+    .fancy>.outer:nth-child(2) {
+        transform: translate(-40%, 20%) rotate(4deg);
+    }
+
+    .fancy>.outer:nth-child(3) {
+        transform: translate(-10%, 60%) rotate(-6deg);
+    }
+
+    .fancy>.outer:nth-child(4) {
+        transform: translate(0%, 8%) rotate(-8deg);
+    }
+
+    .fancy>.outer:nth-child(5) {
+        transform: translate(0%, -20%) rotate(5deg);
+    }
+
+    .fancy>.outer:nth-child(6) {
+        transform: translate(0%, 20%) rotate(-3deg);
+    }
+
+    .fancy>.outer:nth-child(7) {
+        transform: translate(0%, -40%) rotate(-5deg);
+    }
+
+    .fancy>.outer:nth-child(8) {
+        transform: translate(0%, 15%) rotate(10deg);
+    }
+
+    .fancy>.outer:nth-child(9) {
+        transform: translate(0%, -50%) rotate(8deg);
+    }
+
+    .fancy>.outer:nth-child(10) {
+        transform: translate(0%, 15%) rotate(-6deg);
+    }
+
+    /* After */
+
+    .fancy:hover>.outer:nth-child(1) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(2) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(3) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(4) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(5) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(6) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(7) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(8) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(9) {
+        transform: translate(0%, 0%);
+    }
+
+    .fancy:hover>.outer:nth-child(10) {
+        transform: translate(0%, 0%);
+    }
 }
