@@ -1,5 +1,6 @@
 // src/components/Home.jsx
 import React from "react";
+import Header from "./header";
 import Image from "../assets/img-template.png";
 import Socials from "./socials";
 import Footer from "./footer";
@@ -7,6 +8,7 @@ import Footer from "./footer";
 const Home = () => {
   return (
     <>
+      <Header />
       <section class="bg-white dark:bg-slate-500">
         <div class="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="ml-auto place-self-center lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6 sm:hover:bg-slate-100 sm:hover:shadow-lg sm:hover:scale-105 transform transition-transform duration-500 ease-out">
