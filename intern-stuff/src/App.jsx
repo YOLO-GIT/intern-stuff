@@ -1,11 +1,17 @@
+// src/App.js
 import React from "react";
-import Home from "./components/home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/home.jsx";
+import Documents from "./components/document.jsx"; // Import your second page component
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/documents" element={<Documents />} />
+      </Routes>
+    </Router>
   );
 }
 
