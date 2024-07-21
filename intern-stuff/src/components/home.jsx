@@ -11,16 +11,21 @@ const Home = () => {
       <Header />
       <section class="bg-white dark:bg-slate-500">
         <div class="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div class="ml-auto place-self-center lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6 sm:hover:bg-slate-100 sm:hover:shadow-lg sm:hover:scale-105 transform transition-transform duration-500 ease-out">
+          <div class="ml-auto place-self-center lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6">
             <h1 class="text-center sm:text-left max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-gray-900 sm:text-gray-900">
-              Happy Eid al-Adha!
+              Introduction
             </h1>
             <p class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              This Hajj / Aidil Adha holiday is also known as Hari Raya Korban
-              in Malaysia. The sacrificial worship performed on Hari Raya
-              Aidiladha is for Muslims to commemorate the story of the sacrifice
-              of Prophet Ibrahim a.s. who was willing to sacrifice his son Nabi
-              Ismail because of his obedience to Allah S.W.T.
+              Hello pelajar - pelajar praktikal! Selamat datang ke...
+              <p className="text-4xl">
+                <br />
+                "P R A T I K A L - A R C H I V E"
+              </p>
+              <br />
+              Di sini, anda akan dapat info cara - cara mendokumentasikan
+              perkara yang melibatkan tugasan anda di firma dan cara - cara
+              mencatatkannya. (Tidak termasuk perkara seperti: format institusi
+              anda dan firma yang anda pilih).
             </p>
           </div>
           <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
@@ -48,10 +53,10 @@ const Home = () => {
                 Important thing to know.
               </h1>
               <p class="text-center sm:text-right mt-6 font-semibold text-gray-200 md:text-lg max-w-lg">
-                The tradition during Hari Raya Aidiladha involves slaughtering
-                animals and dividing the meat into three equal parts - for
-                family, for relatives and friends, and for the poor. The purpose
-                is to ensure that every Muslim can eat meat.
+                Laman web ini hanya untuk mengarchive dokumen yang saya
+                (YOLO-GIT) buat. Tetapi anda boleh menggunakan sumber yang saya
+                telah dokumentasikan dengan tujuan mengetahui cara-cara membuat
+                report pratikal tanpa rasa gelisah.
               </p>
             </div>
           </div>
