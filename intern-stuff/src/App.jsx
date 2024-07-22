@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/home.jsx";
-import Documents from "./components/document.jsx"; // Import your second page component
+import Documents from "./components/document.jsx";
 
 function App() {
   return (
