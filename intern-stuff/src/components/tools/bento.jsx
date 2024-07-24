@@ -10,6 +10,7 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
+import Image from "../../assets/img-template.png";
 
 export function BentoGridDemo() {
   return (
@@ -28,55 +29,56 @@ export function BentoGridDemo() {
   );
 }
 const Skeleton = () => (
-  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
+  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+    <img src={Image} className="mx-auto" />
+  </div>
 );
 const items = [
   {
     title: "Introduction",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    description: "Bahagian pertama untuk budak-udak praktikal.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Bab 1",
-    description: "Dive into the transformative power of technology.",
+    description: "Objektif Praktikal.",
     header: <Skeleton />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "bab 2",
-    description: "Discover the beauty of thoughtful and functional design.",
+    description: "Sejarah Firma Anda.",
     header: <Skeleton />,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Bab 3",
-    description:
-      "Understand the impact of effective communication in our lives.",
+    description: "Daily and Weekly.",
     header: <Skeleton />,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Bab 4",
-    description: "Join the quest for understanding and enlightenment.",
+    description: "Projek yang anda uat untuk firma anda. (Secara asas)",
     header: <Skeleton />,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Bab 5",
-    description: "Experience the thrill of bringing ideas to life.",
+    description: "Kesimpulan yang anda boleh buat selama praktikal anda.",
     header: <Skeleton />,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Bab 6",
-    description: "Embark on exciting journeys and thrilling discoveries.",
+    description: "Komen dan Candangan.",
     header: <Skeleton />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Outro",
-    description: "Embark on exciting journeys and thrilling discoveries.",
+    description: "Reference yang anda boleh beri.",
     header: <Skeleton />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
