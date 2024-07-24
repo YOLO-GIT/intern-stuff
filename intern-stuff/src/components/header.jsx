@@ -51,8 +51,26 @@ const Header = () => {
         >
           List
         </NavLink>
-        <Navbar.Link href="#">Contoh Slide</Navbar.Link>
-        <Navbar.Link href="#">Contoh Nota</Navbar.Link>
+        <NavLink
+          to="/contoh_slide"
+          className={({ isActive }) =>
+            isActive
+              ? "nav-link-active text-blue-600"
+              : "nav-link text-gray-600"
+          }
+        >
+          Contoh Slide
+        </NavLink>
+        <NavLink
+          to="/contoh_nota"
+          className={({ isActive }) =>
+            isActive
+              ? "nav-link-active text-blue-600"
+              : "nav-link text-gray-600"
+          }
+        >
+          Contoh Nota
+        </NavLink>
         <Navbar.Link href="#">About me</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
