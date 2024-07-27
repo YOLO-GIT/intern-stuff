@@ -4,6 +4,7 @@ import Header from "./header";
 import Image from "../assets/img-template.png";
 import Socials from "./socials";
 import Footer from "./footer";
+import { Typewriter } from "./tools/typewriter";
 
 const Home = () => {
   return (
@@ -17,11 +18,7 @@ const Home = () => {
             </h1>
             <p class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               Hello pelajar - pelajar praktikal! Selamat datang ke...
-              <p className="text-4xl">
-                <br />
-                "P R A T I K A L - A R C H I V E"
-              </p>
-              <br />
+              <Typewriter />
               Di sini, anda akan dapat info cara - cara mendokumentasikan
               perkara yang melibatkan tugasan anda di firma dan cara - cara
               mencatatkannya. (Tidak termasuk perkara seperti: format institusi
