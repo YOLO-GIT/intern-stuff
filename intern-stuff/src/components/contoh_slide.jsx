@@ -9,7 +9,9 @@ const Slide = () => {
   return (
     <>
       <Header />
-      <Card />
+      <div className="bg-slate-50">
+        <Card />
+      </div>
       <Socials />
       <Footer />
     </>

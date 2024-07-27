@@ -3,14 +3,15 @@ import React from "react";
 import Header from "./header";
 import Socials from "./socials";
 import Footer from "./footer";
-import New_Card from "./tools/card";
 import { BentoGridDemo } from "./tools/bento";
 
 const Document = () => {
   return (
     <>
       <Header />
-      <BentoGridDemo />
+      <div className="bg-slate-50">
+        <BentoGridDemo />
+      </div>
       <Socials />
       <Footer />
     </>

@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import React from "react";
+import { motion } from "framer-motion";
+
+const dropdownVariants = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.3 } },
+};
 
 const Header = () => {
   return (
@@ -18,16 +24,23 @@ const Header = () => {
           inline
           label={<Avatar alt="YOLO-GIT" img={Logo} rounded />}
         >
-          <Dropdown.Header>
-            <span className="block text-sm">YOLO-GIT</span>
-            <span className="block truncate text-sm font-medium">
-              gityolo7@gmail.com
-            </span>
-          </Dropdown.Header>
-          <Dropdown.Item>My Github</Dropdown.Item>
-          <Dropdown.Item>My Portfolio</Dropdown.Item>
-          <Dropdown.Item>My Tiktok (Coming Soon)</Dropdown.Item>
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={dropdownVariants}
+          >
+            <Dropdown.Header>
+              <span className="block text-sm">YOLO-GIT</span>
+              <span className="block truncate text-sm font-medium">
+                gityolo7@gmail.com
+              </span>
+            </Dropdown.Header>
+            <Dropdown.Item>My Github</Dropdown.Item>
+            <Dropdown.Item>My Portfolio</Dropdown.Item>
+            <Dropdown.Item>My Tiktok (Coming Soon)</Dropdown.Item>
+          </motion.div>
         </Dropdown>
+
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -71,7 +84,16 @@ const Header = () => {
         >
           Contoh Nota
         </NavLink>
-        <Navbar.Link href="#">About me</Navbar.Link>
+        <NavLink
+          to="/about_us"
+          className={({ isActive }) =>
+            isActive
+              ? "nav-link-active text-blue-600"
+              : "nav-link text-gray-600"
+          }
+        >
+          About Us
+        </NavLink>
       </Navbar.Collapse>
     </Navbar>
   );
