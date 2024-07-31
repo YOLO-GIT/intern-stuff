@@ -4,7 +4,7 @@ import Header from "./header";
 import Image from "../assets/img-template.png";
 import Socials from "./socials";
 import Footer from "./footer";
-import { Typewriter } from "./tools/typewriter";
+import { CardHoverEffect } from "./tools/card-hover";
 
 const Statement = () => {
   return (
@@ -33,6 +33,8 @@ const Statement = () => {
           </div>
         </div>
       </section>
+
+      <CardHoverEffect />
 
       <section class="bg-black">
         <div class="container mx-auto px-4 py-8 lg:py-16">
