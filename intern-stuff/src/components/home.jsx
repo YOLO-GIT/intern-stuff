@@ -60,7 +60,7 @@ const Home = () => {
         </div>
       </section>
 
-      <Socials />
+      {/* <Socials /> */}
       <Footer />
     </>
   );

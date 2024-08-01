@@ -12,7 +12,7 @@ const Note = () => {
       <div className="bg-slate-50">
         <Pin />
       </div>
-      <Socials />
+      {/* <Socials /> */}
       <Footer />
     </>
   );

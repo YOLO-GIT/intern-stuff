@@ -12,7 +12,7 @@ const Slide = () => {
       <div className="bg-slate-50">
         <Card />
       </div>
-      <Socials />
+      {/* <Socials /> */}
       <Footer />
     </>
   );

@@ -12,7 +12,7 @@ const Document = () => {
       <div className="bg-slate-50">
         <BentoGridDemo />
       </div>
-      <Socials />
+      {/* <Socials /> */}
       <Footer />
     </>
   );
