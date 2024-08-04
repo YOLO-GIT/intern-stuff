@@ -12,7 +12,7 @@ const dropdownVariants = {
 
 const Header = () => {
   return (
-    <Navbar fluid>
+    <Navbar fluid className="bg-slate-300">
       <Navbar.Brand href="https://github.com/YOLO-GIT/intern-stuff">
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           Praktikal Archive
