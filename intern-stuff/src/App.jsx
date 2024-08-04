@@ -6,6 +6,7 @@ import Documents from "./components/document.jsx";
 import Slide from "./components/contoh_slide.jsx";
 import Note from "./components/contoh_note.jsx";
 import About from "./components/about-us.jsx";
+import Intro from "./components/documents_folder/intro.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contoh_slide" element={<Slide />} />
         <Route path="/contoh_nota" element={<Note />} />
         <Route path="/about_us" element={<About />} />
+        <Route path="/documents_folder/intro" element={<Intro />} />
       </Routes>
     </Router>
   );
