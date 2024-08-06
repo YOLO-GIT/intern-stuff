@@ -1,5 +1,4 @@
 import { HoverEffect } from "../ui/card-hover-effect";
-import Intro from "../documents_folder/intro";
 
 export function DocHoverEffect() {
   return (
@@ -17,7 +16,7 @@ export const projects = [
   {
     title: "Bab 1",
     description: "Objektif Praktikal.",
-    link: "https://netflix.com",
+    link: "/documents_folder/bab_1",
   },
   {
     title: "Bab 2",
