@@ -19,7 +19,7 @@ const bab_1 = () => {
               Hint: <br />
               - Agak sukar sedikit.
               <br />
-              - Isi berkaitan tujuan firma (Fakta bukan rekaan!).
+              - Isi berkaitan tujuan LI (Fakta bukan rekaan!).
               <br />
               - Senaraikannya ikut susunan seperti ini: <br />
               i. Pengenalan <br />
@@ -38,7 +38,7 @@ const bab_1 = () => {
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               <span className="font-bold text-red-500">Disclaimer:</span>{" "}
               <span className="font-bold">"PENGENALAN"</span> di bawah hanya
-              sekadar contoh dan oleh diubah suai atas kehendak anda. Tidak
+              sekadar contoh dan boleh diubah suai atas kehendak anda. Tidak
               perlu <span className="font-bold">IKUT</span> 100% contohnya.
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />
