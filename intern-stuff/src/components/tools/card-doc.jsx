@@ -21,27 +21,27 @@ export const projects = [
   {
     title: "Bab 2",
     description: "Sejarah Firma Anda.",
-    link: "https://google.com",
+    link: "/documents_folder/bab_2",
   },
   {
     title: "Bab 3",
     description: "Daily and Weekly.",
-    link: "https://meta.com",
+    link: "/documents_folder/bab_3",
   },
   {
     title: "Bab 4",
     description: "Projek yang anda uat untuk firma anda. (Secara asas)",
-    link: "https://amazon.com",
+    link: "/documents_folder/bab_4",
   },
   {
     title: "Bab 5",
     description: "Kesimpulan yang anda boleh buat selama praktikal anda.",
-    link: "https://microsoft.com",
+    link: "/documents_folder/bab_5",
   },
   {
     title: "Bab 6",
     description: "Komen dan Candangan.",
-    link: "https://microsoft.com",
+    link: "/documents_folder/bab_6",
   },
   {
     title: "Outro",
