@@ -17,10 +17,11 @@ const Statement = () => {
             </h1>
             <p class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               Cuma orang biasa yang mempunyai pelbagai idea. Saya buat website
-              ini kerana saya selalu nampak flow pelajar - pelajar lain membuat
-              <span>Blogspot</span> atau <span>Wordpress</span> berkaitan
-              praktikal mereka. (Jikalau ada sebab lain boleh emelkan info
-              tersebut kepada saya.)
+              ini kerana saya selalu nampak flow pelajar - pelajar lain
+              membuat&nbsp;
+              <span>Blogspot</span>&nbsp; atau &nbsp;<span>Wordpress</span>
+              &nbsp; berkaitan praktikal mereka. (Jikalau ada sebab lain boleh
+              emelkan info tersebut kepada saya.)
             </p>
           </div>
           <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
