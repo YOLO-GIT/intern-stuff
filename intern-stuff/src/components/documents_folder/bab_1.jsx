@@ -36,7 +36,7 @@ const bab_1 = () => {
               dari ditangkap plagiat.)
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              <span className="font-bold text-red-500">Disclaimer:</span>{" "}
+              <span className="font-bold text-red-500">Disclaimer:</span>
               <span className="font-bold">"PENGENALAN"</span> di bawah hanya
               sekadar contoh dan boleh diubah suai atas kehendak anda. Tidak
               perlu <span className="font-bold">IKUT</span> 100% contohnya.
@@ -48,32 +48,70 @@ const bab_1 = () => {
               </h2>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Latihan Industri merupakan satu komponen utama dalam kurikulum
-                pembelajaran [PENGAJIAN ANDA (cth: "Politeknik Kementerian
-                Pengajian Tinggi (PKPT)")]. Pelajar disyaratkan lulus latihan
-                industri sebelum diperakukan untuk penganugerahan [DIPLOMA
-                ANDA]. Pelajar akan ditempatkan di organisasi tertentu selama
+                pembelajaran &nbsp;
+                <span className="font-bold underline italic">
+                  [PENGAJIAN ANDA (cth: "Politeknik Kementerian Pengajian Tinggi
+                  (PKPT)")]
+                </span>
+                &nbsp; . Pelajar disyaratkan lulus latihan industri sebelum
+                diperakukan untuk penganugerahan&nbsp;
+                <span className="font-bold underline italic">
+                  [DIPLOMA ANDA]
+                </span>
+                &nbsp; . Pelajar akan ditempatkan di organisasi tertentu selama
                 satu semester bagi mendedahkan mereka kepada suasana alam
                 pekerjaan yang sebenar. Pelajar juga diberi pilihan untuk
                 memilih firma yang dikehendakinya untuk menjalani Latihan
-                Industri. Latihan Industri ini dijalankan pada [SEMESTER ANDA
-                (JIKALAU DEGREE)] bagi kursus peringkat [PROGRAM ANDA].
+                Industri. Latihan Industri ini dijalankan pada&nbsp;
+                <span className="font-bold underline italic">
+                  [SEMESTER ANDA (JIKALAU DEGREE)]
+                </span>
+                &nbsp; bagi kursus peringkat&nbsp;
+                <span className="font-bold underline italic">
+                  [PROGRAM ANDA]
+                </span>
+                &nbsp; .
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-                Saya, [NAMA ANDA], pelajar yang mengambil [KURSUS/PROGRAM ANDA]
-                di [INSTITUSI ANDA] sebagai pelajar [INSTITUSI ANDA] mesti lulus
-                dalam semester enam iaitu Latihan Industri, para pelajar akan
-                dihantar ke pelbagai organisasi kerajaan atau swasta.
+                Saya,&nbsp;
+                <span className="font-bold underline italic">[NAMA ANDA]</span>
+                &nbsp;, pelajar yang mengambil&nbsp;
+                <span className="font-bold underline italic">
+                  [KURSUS/PROGRAM ANDA]
+                </span>
+                &nbsp; di&nbsp;
+                <span className="font-bold underline italic">
+                  [INSTITUSI ANDA]
+                </span>
+                &nbsp; sebagai pelajar&nbsp;
+                <span className="font-bold underline italic">
+                  [INSTITUSI ANDA]
+                </span>
+                &nbsp; mesti lulus dalam semester enam iaitu Latihan Industri,
+                para pelajar akan dihantar ke pelbagai organisasi kerajaan atau
+                swasta.
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Sebarang masalah berkaitan tempat Latihan Industri hendaklah
                 dibincangkan dengan pihak majikan dan sebarang keputusan
-                muktamad hanya akan dilaksanakan oleh pihak [INSTITUSI ANDA]
-                apabila diminta berbuat demikian oleh pihak majikan tersebut.
+                muktamad hanya akan dilaksanakan oleh pihak&nbsp;
+                <span className="font-bold underline italic">
+                  [INSTITUSI ANDA]
+                </span>
+                &nbsp; apabila diminta berbuat demikian oleh pihak majikan
+                tersebut.
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Tempoh yang ditetapkan kepada pelajar-pelajar untuk menjalani
-                Latihan Industri di sesebuah firma ialah selama [BULAN YANG ANDA
-                PELU HADAPI] bermula dari [TARIKH MULA DAN HABIS LI ANDA].
+                Latihan Industri di sesebuah firma ialah selama&nbsp;
+                <span className="font-bold underline italic">
+                  [BULAN YANG ANDA PELU HADAPI]
+                </span>
+                &nbsp; bermula dari&nbsp;
+                <span className="font-bold underline italic">
+                  [TARIKH MULA DAN HABIS LI ANDA]
+                </span>
+                &nbsp; .
               </p>
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />

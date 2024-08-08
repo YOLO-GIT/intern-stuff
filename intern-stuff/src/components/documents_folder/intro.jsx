@@ -35,7 +35,7 @@ const BlogPost = () => {
               sendiri. (Saya percayakan anda 🗣️🔥)
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              <span className="font-bold text-red-500">Disclaimer:</span>{" "}
+              <span className="font-bold text-red-500">Disclaimer:</span>
               <span className="font-bold">"PENGHARGAAN"</span> di bawah hanya
               sekadar contoh dan boleh diubah suai atas kehendak anda. Tidak
               perlu <span className="font-bold">IKUT</span> 100% contohnya.
@@ -56,25 +56,41 @@ const BlogPost = () => {
                 berjaya saya siapkan Laporan Akhir Latihan Industri ini.
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-                Setinggi-tinggi penghargaan saya ucapkan kepada pihak pengurusan
-                [Firma Anda] kerana telah memberi peluang saya menjalankan
-                latihan industri selama 20 minggu. Khasnya buat [SV anda] kerana
-                memberi saya peluang untuk menimba pengalaman dan menguruskan
-                hal saya selama menjalani latihan industri di organisasi ini.
+                Setinggi-tinggi penghargaan saya ucapkan kepada pihak
+                pengurusan&nbsp;
+                <span className="font-bold underline italic">[Firma Anda]</span>
+                &nbsp; kerana telah memberi peluang saya menjalankan latihan
+                industri selama 20 minggu. Khasnya buat&nbsp;
+                <span className="font-bold underline italic">[SV anda]</span>
+                &nbsp; kerana memberi saya peluang untuk menimba pengalaman dan
+                menguruskan hal saya selama menjalani latihan industri di
+                organisasi ini.
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-                Selain itu, [Staf Firma] kerana beliau juga telah banyak
-                membantu saya dalam semua aspek semasa menjalankan kerja-kerja
-                di organisasi ini dari awal latihan sehingga saya tamat latihan
-                [Tarikh last intern]. Tidak lupa juga kepada staf-staf di bawah
-                [Firma Anda] yang banyak memberi tunjuk ajar tentang selok-belok
-                pengurusan [Firma Anda].
+                Selain itu,&nbsp;
+                <span className="font-bold underline italic">[Staf Firma]</span>
+                &nbsp; kerana beliau juga telah banyak membantu saya dalam semua
+                aspek semasa menjalankan kerja-kerja di organisasi ini dari awal
+                latihan sehingga saya tamat latihan&nbsp;
+                <span className="font-bold underline italic">
+                  [Tarikh last intern]
+                </span>
+                &nbsp; . Tidak lupa juga kepada staf-staf di bawah&nbsp;
+                <span className="font-bold underline italic">[Firma Anda]</span>
+                &nbsp; yang banyak memberi tunjuk ajar tentang selok-belok
+                pengurusan&nbsp;
+                <span className="font-bold underline italic">[Firma Anda]</span>
+                &nbsp; .
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Saya juga ingin mengucapkan jutaan terima kasih kepada pihak
-                Unit Latihan Industri [Institusi Anda] yang banyak membantu dari
-                penyediaan sebelum dan selepas menjalani latihan industri dan
-                penyediaan laporan latihan industri.
+                Unit Latihan Industri&nbsp;
+                <span className="font-bold underline italic">
+                  [Institusi Anda]
+                </span>
+                &nbsp; yang banyak membantu dari penyediaan sebelum dan selepas
+                menjalani latihan industri dan penyediaan laporan latihan
+                industri.
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Tidak lupa juga kepada kedua ibu bapa saya yang telah memberikan
@@ -84,9 +100,10 @@ const BlogPost = () => {
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Segala latihan yang saya pernah mungkin tidak dapat saya kutip
                 tanpa kerjasama yang baik daripada seluruh kakitangan. Terima
-                kasih kepada semua warga kerja [Staf] kerana sanggup meluangkan
-                masa untuk memberi tunjuk ajar walaupun sibuk menjalankan tugas
-                harian.
+                kasih kepada semua warga kerja&nbsp;
+                <span className="font-bold underline italic">[Staf]</span>&nbsp;
+                kerana sanggup meluangkan masa untuk memberi tunjuk ajar
+                walaupun sibuk menjalankan tugas harian.
               </p>
               <p className="text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Akhir kata, hanya kepada Allah Taala sahaja saya serahkan segala
