@@ -18,33 +18,45 @@ const bab_2 = () => {
             <p className="mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               Hint: <br />
               - Agak sukar.
-              <br />
-              - Isi berkaitan latar belakang Firma Anda (Fakta bukan rekaan! dan
-              anda perlu membuat rujukan!).
+              <br />- Isi berkaitan latar belakang Firma Anda&nbsp;
+              <span className="font-bold underline italic">
+                (Fakta bukan rekaan! dan anda perlu membuat rujukan!)
+              </span>
+              &nbsp; .
               <br />
               - Senaraikannya ikut susunan seperti ini: <br />
               i. Pengenalan Firma
               <br />
               ii. Latar Belakang Penubuhan Firma
               <br />
-              iii. Ahli Lembaga Pengarah (Subtopik: 1. Aktiviti Firma, 2.
-              Halatuju Firma, 3. Carta Organisasi Firma, 4. Jadual Waktu Operasi
-              )
+              iii. Ahli Lembaga Pengarah&nbsp;
+              <span className="font-bold underline italic">
+                (Subtopik: 1. Aktiviti Firma, 2. Halatuju Firma, 3. Carta
+                Organisasi Firma, 4. Jadual Waktu Operasi )
+              </span>
+              &nbsp;
               <br />
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              Isi yang lain anda boleh cari di dalam Internet [Jikalau firma
-              anda mempunyai Website atau sebarang dokumen berkaitan mereka.]
-              Atau merujuk penyelia anda. (Ingat! Contoh di dalam Internet boleh
-              di-copy tetapi masih perlu diubah usai untuk memastikan fakta yang
-              anda huraikan lebih panjang.)
+              Isi yang lain anda boleh cari di dalam Internet&nbsp;
+              <span className="font-bold underline italic">
+                [Jikalau firma anda mempunyai Website atau sebarang dokumen
+                berkaitan mereka.]
+              </span>
+              &nbsp; Atau merujuk penyelia anda.&nbsp;
+              <span className="italic">
+                (Ingat! Contoh di dalam Internet boleh di-copy tetapi masih
+                perlu diubah usai untuk memastikan fakta yang anda huraikan
+                lebih panjang.)
+              </span>
+              &nbsp;
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              <span className="font-bold text-red-500">Disclaimer:</span>{" "}
-              <span className="font-bold">[letak link]</span> Link yang diberi
-              adalah sekadar contoh dan boleh diubah suai atas kehendak anda.
-              Tidak perlu <span className="font-bold">IKUT</span> 100%
-              contohnya.
+              <span className="font-bold text-red-500">Disclaimer:</span>&nbsp;
+              <span className="font-bold">[letak link]</span>&nbsp; Link yang
+              diberi adalah sekadar contoh dan boleh diubah suai atas kehendak
+              anda. Tidak perlu &nbsp;<span className="font-bold">IKUT</span>
+              &nbsp; 100% contohnya.
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />
           </div>
