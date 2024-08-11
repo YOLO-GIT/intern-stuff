@@ -9,7 +9,7 @@ const Slide = () => {
   return (
     <>
       <Header />
-      <div className="bg-slate-50">
+      <div className="bg-slate-200">
         <Card />
       </div>
       {/* <Socials /> */}

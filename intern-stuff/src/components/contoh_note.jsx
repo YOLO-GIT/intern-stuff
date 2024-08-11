@@ -9,7 +9,7 @@ const Note = () => {
   return (
     <>
       <Header />
-      <div className="bg-slate-50">
+      <div className="bg-slate-200">
         <Pin />
       </div>
       {/* <Socials /> */}

@@ -9,7 +9,7 @@ import { CardHoverEffect } from "./tools/card-hover";
 const Statement = () => {
   return (
     <>
-      <section class="bg-slate-50">
+      <section class="bg-slate-200">
         <div class="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="ml-auto place-self-center lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6">
             <h1 class="text-center sm:text-left max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white text-gray-900 sm:text-gray-900">
@@ -38,7 +38,7 @@ const Statement = () => {
         <CardHoverEffect />
       </section>
 
-      <section class="bg-slate-50">
+      <section class="bg-slate-200">
         <div class="container mx-auto px-4 py-8 lg:py-16">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
             <div class="w-full">

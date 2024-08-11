@@ -9,7 +9,7 @@ const Document = () => {
   return (
     <>
       <Header />
-      <div className="bg-slate-500">
+      <div className="bg-slate-200">
         <DocHoverEffect />
       </div>
       {/* <Socials /> */}
