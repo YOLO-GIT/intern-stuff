@@ -32,7 +32,7 @@ const bab_2 = () => {
               iii. Ahli Lembaga Pengarah&nbsp;
               <span className="font-bold underline italic">
                 (Subtopik: 1. Aktiviti Firma, 2. Halatuju Firma, 3. Carta
-                Organisasi Firma, 4. Jadual Waktu Operasi )
+                Organisasi Firma, 4. Jadual Waktu Operasi)
               </span>
               &nbsp;
               <br />
@@ -53,10 +53,10 @@ const bab_2 = () => {
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               <span className="font-bold text-red-500">Disclaimer:</span>&nbsp;
-              <span className="font-bold">[letak link]</span>&nbsp; Link yang
+              <span className="font-bold">[letak link]</span>&nbsp;Link yang
               diberi adalah sekadar contoh dan boleh diubah suai atas kehendak
-              anda. Tidak perlu &nbsp;<span className="font-bold">IKUT</span>
-              &nbsp; 100% contohnya.
+              anda. Tidak perlu&nbsp;<span className="font-bold">IKUT</span>
+              &nbsp;100% contohnya.
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />
           </div>

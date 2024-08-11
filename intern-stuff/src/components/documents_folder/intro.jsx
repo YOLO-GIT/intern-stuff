@@ -36,9 +36,10 @@ const BlogPost = () => {
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               <span className="font-bold text-red-500">Disclaimer:</span>
-              <span className="font-bold">"PENGHARGAAN"</span> di bawah hanya
-              sekadar contoh dan boleh diubah suai atas kehendak anda. Tidak
-              perlu <span className="font-bold">IKUT</span> 100% contohnya.
+              <span className="font-bold">&nbsp;"PENGHARGAAN"</span> di bawah
+              hanya sekadar contoh dan boleh diubah suai atas kehendak anda.
+              Tidak perlu <span className="font-bold">IKUT</span> 100%
+              contohnya.
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
@@ -75,12 +76,12 @@ const BlogPost = () => {
                 <span className="font-bold underline italic">
                   [Tarikh last intern]
                 </span>
-                &nbsp; . Tidak lupa juga kepada staf-staf di bawah&nbsp;
+                &nbsp;.Tidak lupa juga kepada staf-staf di bawah&nbsp;
                 <span className="font-bold underline italic">[Firma Anda]</span>
                 &nbsp; yang banyak memberi tunjuk ajar tentang selok-belok
                 pengurusan&nbsp;
                 <span className="font-bold underline italic">[Firma Anda]</span>
-                &nbsp; .
+                &nbsp;.
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Saya juga ingin mengucapkan jutaan terima kasih kepada pihak
@@ -88,7 +89,7 @@ const BlogPost = () => {
                 <span className="font-bold underline italic">
                   [Institusi Anda]
                 </span>
-                &nbsp; yang banyak membantu dari penyediaan sebelum dan selepas
+                &nbsp;yang banyak membantu dari penyediaan sebelum dan selepas
                 menjalani latihan industri dan penyediaan laporan latihan
                 industri.
               </p>

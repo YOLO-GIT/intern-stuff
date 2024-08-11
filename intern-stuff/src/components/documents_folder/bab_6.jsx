@@ -29,12 +29,15 @@ const bab_6 = () => {
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               Kesimpulan
             </p>
-            <Disclaimer />
+            <div className="hidden sm:flex">
+              <Disclaimer />
+            </div>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              <span className="font-bold text-red-500">Disclaimer:</span>{" "}
-              <span className="font-bold">"KESIMPULAN"</span> di bawah hanya
-              sekadar contoh dan boleh diubah suai atas kehendak anda. Tidak
-              perlu <span className="font-bold">IKUT</span> 100% contohnya.
+              <span className="font-bold text-red-500">Disclaimer:</span>&nbsp;
+              <span className="font-bold">"KESIMPULAN"</span>&nbsp;di bawah
+              hanya sekadar contoh dan boleh diubah suai atas kehendak anda.
+              Tidak perlu&nbsp;<span className="font-bold">IKUT</span>&nbsp;100%
+              contohnya.
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
@@ -42,14 +45,15 @@ const bab_6 = () => {
                 Kesimpulan
               </h2>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-                Melalui pengalaman praktikal di [Tempat Firma Anda], saya telah
-                memperoleh pemahaman yang mendalam tentang pelbagai aspek
-                pengurusan dan pentadbiran. Pengalaman ini telah membekalkan
-                saya dengan pengetahuan yang sangat berharga serta kemahiran
-                yang penting untuk kerjaya masa depan. Dari pemerhatian terhadap
-                prosedur pentadbiran hingga memahami kepentingan kerja
-                berpasukan, setiap pengalaman telah memperkayakan pemahaman saya
-                tentang dunia kerja yang sebenar.
+                Melalui pengalaman praktikal di&nbsp;
+                <span className="font-bold italic">[Tempat Firma Anda]</span>
+                &nbsp;, saya telah memperoleh pemahaman yang mendalam tentang
+                pelbagai aspek pengurusan dan pentadbiran. Pengalaman ini telah
+                membekalkan saya dengan pengetahuan yang sangat berharga serta
+                kemahiran yang penting untuk kerjaya masa depan. Dari
+                pemerhatian terhadap prosedur pentadbiran hingga memahami
+                kepentingan kerja berpasukan, setiap pengalaman telah
+                memperkayakan pemahaman saya tentang dunia kerja yang sebenar.
               </p>
               <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Selain itu, pengalaman ini telah menekankan betapa pentingnya
@@ -76,10 +80,12 @@ const bab_6 = () => {
                 bagaimana kakitangan sentiasa mencari peluang untuk meningkatkan
                 kemahiran mereka telah memberi inspirasi kepada saya untuk
                 sentiasa berusaha ke arah kecemerlangan. Keseluruhannya,
-                pengalaman praktikal di [Tempat Firma Anda] telah memberi saya
-                asas yang kukuh dalam bidang pentadbiran dan pengurusan, serta
-                membentuk saya menjadi individu yang lebih bersedia untuk
-                menghadapi cabaran dalam dunia pekerjaan.
+                pengalaman praktikal di &nbsp;
+                <span className="font-bold italic">[Tempat Firma Anda]</span>
+                &nbsp; telah memberi saya asas yang kukuh dalam bidang
+                pentadbiran dan pengurusan, serta membentuk saya menjadi
+                individu yang lebih bersedia untuk menghadapi cabaran dalam
+                dunia pekerjaan.
               </p>
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />

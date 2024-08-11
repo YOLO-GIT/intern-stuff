@@ -16,11 +16,14 @@ const bab_3 = () => {
               <p className="font-medium">By [YOLO - GIT]</p>
             </div>
             <p className="mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              Hint: <br />
-              - Biasa 😂 (Jikalau anda fokus.).
-              <br />
-              - Isi berkaitan Tugas Harian di dalam Mingguan anda (Letak sahaja
-              tetapi biar ada sedikit kaitan dengan program anda.).
+              Hint: <br />- Biasa 😂&nbsp;
+              <span className="font-bold italic">(Jikalau anda fokus.)</span>.
+              <br />- Isi berkaitan Tugas Harian di dalam Mingguan anda&nbsp;
+              <span className="font-bold italic">
+                (Letak sahaja tetapi biar ada sedikit kaitan dengan program
+                anda.)
+              </span>
+              .
               <br />
               - Senaraikannya ikut susunan seperti ini: <br />
               i. Pengenalan
@@ -30,17 +33,17 @@ const bab_3 = () => {
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               Bahagian ini sangat mudah tetapi berisiko sekiranya anda tidak
-              mula dari awal. (Ingat! Anda hanya perlu senaraikan
-              <span className="font-bold">&nbsp;kesemua/separuh</span> tugasan
-              harian yang anda telah lakukan di dalam
-              <span className="font-bold">&nbsp;MINGGU</span> tersebut.)
+              mula dari awal. (Ingat! Anda hanya perlu senaraikan&nbsp;
+              <span className="font-bold">kesemua/separuh</span>&nbsp;tugasan
+              harian yang anda telah lakukan di dalam&nbsp;
+              <span className="font-bold">MINGGU</span>&nbsp;tersebut.)
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               <span className="font-bold text-red-500">Disclaimer:</span>&nbsp;
-              <span className="font-bold">[letak link]</span> Link yang diberi
-              adalah sekadar contoh dan boleh diubah suai atas kehendak anda.
-              Tidak perlu <span className="font-bold">IKUT</span> 100%
-              contohnya.
+              <span className="font-bold">[letak link]</span>&nbsp;Link yang
+              diberi adalah sekadar contoh dan boleh diubah suai atas kehendak
+              anda. Tidak perlu&nbsp;<span className="font-bold">IKUT</span>
+              &nbsp;100% contohnya.
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />
           </div>
