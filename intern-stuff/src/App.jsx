@@ -13,6 +13,7 @@ import Bab_3 from "./components/documents_folder/bab_3.jsx";
 import Bab_4 from "./components/documents_folder/bab_4.jsx";
 import Bab_5 from "./components/documents_folder/bab_5.jsx";
 import Bab_6 from "./components/documents_folder/bab_6.jsx";
+import Outro from "./components/documents_folder/outro.jsx";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/documents_folder/bab_4" element={<Bab_4 />} />
         <Route path="/documents_folder/bab_5" element={<Bab_5 />} />
         <Route path="/documents_folder/bab_6" element={<Bab_6 />} />
+        <Route path="/documents_folder/outro" element={<Outro />} />
       </Routes>
     </Router>
   );
