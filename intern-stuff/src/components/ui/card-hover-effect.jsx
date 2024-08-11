@@ -8,7 +8,7 @@ export const HoverEffect = ({ items, className }) => {
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2  py-10",
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-10",
         className
       )}
     >
@@ -40,6 +40,9 @@ export const HoverEffect = ({ items, className }) => {
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
+            <div className="hidden sm:flex">
+              <CardTick />
+            </div>
           </Card>
         </a>
       ))}
@@ -80,5 +83,25 @@ export const CardDescription = ({ className, children }) => {
     >
       {children}
     </p>
+  );
+};
+
+// Add a tick box component
+export const CardTick = ({ className }) => {
+  return (
+    <motion.div
+      className={cn(
+        "absolute right-0 top-1/2 transform -translate-y-1/2 bg-white rounded-full w-6 h-6 flex items-center justify-center",
+        className
+      )}
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
+      transition={{ duration: 0.2 }}
+    >
+      <input
+        type="checkbox"
+        className="form-checkbox rounded-full text-green-600 w-6 h-6"
+      />
+    </motion.div>
   );
 };
