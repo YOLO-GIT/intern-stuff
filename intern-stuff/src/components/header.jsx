@@ -12,9 +12,9 @@ const dropdownVariants = {
 
 const Header = () => {
   return (
-    <Navbar fluid className="bg-slate-300">
+    <Navbar fluid className="bg-slate-900">
       <Navbar.Brand href="https://github.com/YOLO-GIT/intern-stuff">
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+        <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
           Praktikal Archive
         </span>
       </Navbar.Brand>
@@ -48,8 +48,8 @@ const Header = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "nav-link-active text-blue-600"
-              : "nav-link text-gray-600"
+              ? "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-t-2 border-gray-600 text-xl p-1 nav-link-active text-blue-600"
+              : "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-t-2 border-gray-600 text-xl p-1 nav-link text-white"
           }
         >
           Home
@@ -58,8 +58,8 @@ const Header = () => {
           to="/documents"
           className={({ isActive }) =>
             isActive
-              ? "nav-link-active text-blue-600"
-              : "nav-link text-gray-600"
+              ? "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link-active text-blue-600"
+              : "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link text-white"
           }
         >
           List
@@ -68,8 +68,8 @@ const Header = () => {
           to="/contoh_slide"
           className={({ isActive }) =>
             isActive
-              ? "nav-link-active text-blue-600"
-              : "nav-link text-gray-600"
+              ? "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link-active text-blue-600"
+              : "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link text-white"
           }
         >
           Contoh Slide
@@ -78,8 +78,8 @@ const Header = () => {
           to="/contoh_nota"
           className={({ isActive }) =>
             isActive
-              ? "nav-link-active text-blue-600"
-              : "nav-link text-gray-600"
+              ? "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link-active text-blue-600"
+              : "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link text-white"
           }
         >
           Contoh Nota
@@ -88,8 +88,8 @@ const Header = () => {
           to="/about_us"
           className={({ isActive }) =>
             isActive
-              ? "nav-link-active text-blue-600"
-              : "nav-link text-gray-600"
+              ? "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link-active text-blue-600"
+              : "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link text-white"
           }
         >
           About Us
