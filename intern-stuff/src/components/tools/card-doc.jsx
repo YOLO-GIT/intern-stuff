@@ -10,7 +10,7 @@ export function DocHoverEffect() {
 export const projects = [
   {
     title: "Intro",
-    description: "Bahagian pertama untuk budak-udak praktikal.",
+    description: "Bahagian pertama untuk budak-budak praktikal.",
     link: "/documents_folder/intro",
   },
   {
@@ -46,6 +46,6 @@ export const projects = [
   {
     title: "Outro",
     description: "Reference yang anda boleh beri.",
-    link: "https://microsoft.com",
+    link: "/documents_folder/outro",
   },
 ];
