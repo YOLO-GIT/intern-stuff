@@ -35,12 +35,12 @@ export const projects = [
   },
   {
     title: "Bab 5",
-    description: "Kesimpulan yang anda boleh buat selama praktikal anda.",
+    description: "Komen dan Candangan.",
     link: "/documents_folder/bab_5",
   },
   {
     title: "Bab 6",
-    description: "Komen dan Candangan.",
+    description: "Kesimpulan yang anda boleh buat selama praktikal anda.",
     link: "/documents_folder/bab_6",
   },
   {
