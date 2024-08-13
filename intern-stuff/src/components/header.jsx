@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import React from "react";
 import { motion } from "framer-motion";
+import PALogo from "../../logo.webp";
 
 const dropdownVariants = {
   hidden: { opacity: 0, scale: 0.8 },
@@ -14,7 +15,8 @@ const Header = () => {
   return (
     <Navbar fluid className="bg-slate-900">
       <Navbar.Brand href="https://github.com/YOLO-GIT/intern-stuff">
-        <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
+        <img src={PALogo} className="w-8 h-8" />
+        <span className="self-center whitespace-nowrap text-2xl font-semibold text-white">
           Praktikal Archive
         </span>
       </Navbar.Brand>
