@@ -1,10 +1,8 @@
 // src/components/Home.jsx
 import React from "react";
-import Header from "./header";
-import Image from "../assets/img-template.png";
-import Socials from "./socials";
-import Footer from "./footer";
 import { CardHoverEffect } from "./tools/card-hover";
+import Image_Three from "../assets/Kirbo.png";
+import Image_Four from "../assets/qr.jpeg";
 
 const Statement = () => {
   return (
@@ -27,7 +25,7 @@ const Statement = () => {
           <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
             <img
               class="rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
-              src={Image}
+              src={Image_Three}
               alt="mockup"
             />
           </div>
@@ -44,7 +42,7 @@ const Statement = () => {
             <div class="w-full">
               <img
                 class="rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
-                src={Image}
+                src={Image_Four}
                 alt="mockup"
               />
             </div>
