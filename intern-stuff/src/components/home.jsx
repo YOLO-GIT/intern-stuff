@@ -1,10 +1,10 @@
 // src/components/Home.jsx
 import React from "react";
 import Header from "./header";
-import Image from "../assets/img-template.png";
-import Socials from "./socials";
 import Footer from "./footer";
 import { Typewriter } from "./tools/typewriter";
+import Image_One from "../assets/img_one.gif";
+import Image_Two from "../assets/warning.png";
 
 const Home = () => {
   return (
@@ -33,7 +33,7 @@ const Home = () => {
           <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
             <img
               class="rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
-              src={Image}
+              src={Image_One}
               alt="mockup"
             />
           </div>
@@ -46,7 +46,7 @@ const Home = () => {
             <div class="w-full">
               <img
                 class="rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
-                src={Image}
+                src={Image_Two}
                 alt="mockup"
               />
             </div>
