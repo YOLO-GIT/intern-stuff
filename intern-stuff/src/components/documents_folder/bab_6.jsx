@@ -44,7 +44,7 @@ const bab_6 = () => {
               <h2 className="text-center mb-8 text-3xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white text-gray-900 sm:text-gray-900">
                 Kesimpulan
               </h2>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Melalui pengalaman praktikal di&nbsp;
                 <span className="font-bold italic">[Tempat Firma Anda]</span>
                 &nbsp;, saya telah memperoleh pemahaman yang mendalam tentang
@@ -55,7 +55,7 @@ const bab_6 = () => {
                 kepentingan kerja berpasukan, setiap pengalaman telah
                 memperkayakan pemahaman saya tentang dunia kerja yang sebenar.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Selain itu, pengalaman ini telah menekankan betapa pentingnya
                 penggunaan teknologi dalam menguruskan tugas-tugas pentadbiran.
                 Saya belajar bagaimana untuk menggunakan pelbagai sistem dan
@@ -65,7 +65,7 @@ const bab_6 = () => {
                 canggih dan membantu saya memahami betapa pentingnya kemahiran
                 teknologi dalam dunia kerja masa kini.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Saya juga menyedari bahawa pematuhan kepada dasar dan prosedur
                 institusi adalah kritikal untuk memastikan ketelusan dan
                 akauntabiliti. Pengalaman ini telah mengajar saya tentang
@@ -74,7 +74,7 @@ const bab_6 = () => {
                 operasi, tetapi juga memupuk budaya kerja yang beretika dan
                 profesional.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Akhir sekali, pengalaman ini telah membuka mata saya tentang
                 kepentingan perkembangan profesional yang berterusan. Melihat
                 bagaimana kakitangan sentiasa mencari peluang untuk meningkatkan

@@ -45,7 +45,7 @@ const Home = () => {
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
             <div class="w-full">
               <img
-                class="rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
+                class="mx-auto sm:mx-0 rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
                 src={Image_Two}
                 alt="mockup"
               />

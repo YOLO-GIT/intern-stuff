@@ -49,7 +49,7 @@ const bab_1 = () => {
               <h2 className="text-center mb-8 text-3xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white text-gray-900 sm:text-gray-900">
                 Pengenalan
               </h2>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Latihan Industri merupakan satu komponen utama dalam kurikulum
                 pembelajaran&nbsp;
                 <span className="font-bold underline italic">
@@ -75,7 +75,7 @@ const bab_1 = () => {
                 </span>
                 &nbsp;.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Saya,&nbsp;
                 <span className="font-bold underline italic">[NAMA ANDA]</span>
                 &nbsp;, pelajar yang mengambil&nbsp;
@@ -94,7 +94,7 @@ const bab_1 = () => {
                 para pelajar akan dihantar ke pelbagai organisasi kerajaan atau
                 swasta.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Sebarang masalah berkaitan tempat Latihan Industri hendaklah
                 dibincangkan dengan pihak majikan dan sebarang keputusan
                 muktamad hanya akan dilaksanakan oleh pihak&nbsp;
@@ -104,7 +104,7 @@ const bab_1 = () => {
                 &nbsp;apabila diminta berbuat demikian oleh pihak majikan
                 tersebut.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Tempoh yang ditetapkan kepada pelajar-pelajar untuk menjalani
                 Latihan Industri di sesebuah firma ialah selama&nbsp;
                 <span className="font-bold underline italic">

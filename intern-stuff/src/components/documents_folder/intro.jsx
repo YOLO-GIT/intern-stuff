@@ -46,17 +46,17 @@ const BlogPost = () => {
               <h2 className="text-center mb-8 text-3xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white text-gray-900 sm:text-gray-900">
                 Penghargaan
               </h2>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Bismillahirahmanirahim. Assalamualaikum W.B.T..
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Alhamdulillah, Segala puji-pujian bagi Allah, Tuhan sekelian
                 alam. Selawat dan salam ke atas Nabi Muhammad S.A.W, seluruh
                 keluarga baginda, para sahabat baginda dan waris keturunan
                 baginda. Syukur kehadrat Ilahi kerana dengan limpah kurnia-Nya
                 berjaya saya siapkan Laporan Akhir Latihan Industri ini.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Setinggi-tinggi penghargaan saya ucapkan kepada pihak
                 pengurusan&nbsp;
                 <span className="font-bold underline italic">[Firma Anda]</span>
@@ -67,7 +67,7 @@ const BlogPost = () => {
                 menguruskan hal saya selama menjalani latihan industri di
                 organisasi ini.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Selain itu,&nbsp;
                 <span className="font-bold underline italic">[Staf Firma]</span>
                 &nbsp; kerana beliau juga telah banyak membantu saya dalam semua
@@ -83,7 +83,7 @@ const BlogPost = () => {
                 <span className="font-bold underline italic">[Firma Anda]</span>
                 &nbsp;.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Saya juga ingin mengucapkan jutaan terima kasih kepada pihak
                 Unit Latihan Industri&nbsp;
                 <span className="font-bold underline italic">
@@ -93,12 +93,12 @@ const BlogPost = () => {
                 menjalani latihan industri dan penyediaan laporan latihan
                 industri.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Tidak lupa juga kepada kedua ibu bapa saya yang telah memberikan
                 dorongan dan sokongan yang padu kepada saya untuk menyiapkan
                 buku laporan dan menamatkan latihan industri selama 6 bulan.
               </p>
-              <p className="mb-6 text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Segala latihan yang saya pernah mungkin tidak dapat saya kutip
                 tanpa kerjasama yang baik daripada seluruh kakitangan. Terima
                 kasih kepada semua warga kerja&nbsp;
@@ -106,7 +106,7 @@ const BlogPost = () => {
                 kerana sanggup meluangkan masa untuk memberi tunjuk ajar
                 walaupun sibuk menjalankan tugas harian.
               </p>
-              <p className="text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
+              <p className="mb-6 text-center sm:text-left text-lg dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
                 Akhir kata, hanya kepada Allah Taala sahaja saya serahkan segala
                 urusan, semoga kita semua diberi taufiq dan hidayat untuk menuju
                 ke jalan yang benar iaitu jalan yang diredhai di dunia dan di
