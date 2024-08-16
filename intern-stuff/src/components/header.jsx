@@ -37,8 +37,12 @@ const Header = () => {
                 gityolo7@gmail.com
               </span>
             </Dropdown.Header>
-            <Dropdown.Item>My Github</Dropdown.Item>
-            <Dropdown.Item>My Portfolio</Dropdown.Item>
+            <Dropdown.Item href="https://github.com/YOLO-GIT">
+              My Github
+            </Dropdown.Item>
+            <Dropdown.Item href="https://yolo-git.github.io/My-First-Portfolio/">
+              My Portfolio
+            </Dropdown.Item>
             <Dropdown.Item>My Tiktok (Coming Soon)</Dropdown.Item>
           </motion.div>
         </Dropdown>
