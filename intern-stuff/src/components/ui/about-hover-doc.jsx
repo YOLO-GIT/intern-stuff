@@ -8,7 +8,7 @@ export const AboutEffect = ({ items, className }) => {
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-10",
+        "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 py-10",
         className
       )}
     >
