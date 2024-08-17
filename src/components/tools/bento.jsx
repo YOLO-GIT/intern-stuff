@@ -1,0 +1,85 @@
+import { cn } from "../../lib/utils";
+import React from "react";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
+import {
+  IconArrowWaveRightUp,
+  IconBoxAlignRightFilled,
+  IconBoxAlignTopLeft,
+  IconClipboardCopy,
+  IconFileBroken,
+  IconSignature,
+  IconTableColumn,
+} from "@tabler/icons-react";
+import Image from "../../assets/img-template.png";
+
+export function BentoGridDemo() {
+  return (
+    <BentoGrid className="max-w-4xl mx-auto p-10">
+      {items.map((item, i) => (
+        <BentoGridItem
+          key={i}
+          title={item.title}
+          description={item.description}
+          header={item.header}
+          icon={item.icon}
+          className={i === 4 || i === 8 ? "md:col-span-2" : ""}
+        />
+      ))}
+    </BentoGrid>
+  );
+}
+const Skeleton = () => (
+  <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
+    <img src={Image} className="mx-auto" />
+  </div>
+);
+const items = [
+  {
+    title: "Introduction",
+    description: "Bahagian pertama untuk budak-udak praktikal.",
+    header: <Skeleton />,
+    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Bab 1",
+    description: "Objektif Praktikal.",
+    header: <Skeleton />,
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "bab 2",
+    description: "Sejarah Firma Anda.",
+    header: <Skeleton />,
+    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Bab 3",
+    description: "Daily and Weekly.",
+    header: <Skeleton />,
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Bab 4",
+    description: "Projek yang anda uat untuk firma anda. (Secara asas)",
+    header: <Skeleton />,
+    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Bab 5",
+    description: "Kesimpulan yang anda boleh buat selama praktikal anda.",
+    header: <Skeleton />,
+    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Bab 6",
+    description: "Komen dan Candangan.",
+    header: <Skeleton />,
+    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "Outro",
+    description: "Reference yang anda boleh beri.",
+    header: <Skeleton />,
+    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+  },
+];
