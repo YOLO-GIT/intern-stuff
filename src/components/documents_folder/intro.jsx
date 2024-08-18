@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../header";
 import Footer from "../footer";
 
-const BlogPost = () => {
+const Intro = () => {
   return (
     <>
       <Header />
@@ -125,4 +125,4 @@ const BlogPost = () => {
   );
 };
 
-export default BlogPost;
+export default Intro;
