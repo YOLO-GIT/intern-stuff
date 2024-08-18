@@ -1,4 +1,4 @@
-import Image from "../../assets/img-template.png";
+import Logo from "../../assets/logo.png";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import Full_pptx from "../../documents/Slide_Presentation.pptx";
 
@@ -21,7 +21,7 @@ const Card = () => {
         </CardItem>
         <CardItem translateZ={100} className="w-full mt-4">
           <img
-            src={Image}
+            src={Logo}
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
