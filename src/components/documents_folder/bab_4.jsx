@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../header";
 import Footer from "../footer";
 
-const bab_4 = () => {
+const Bab_4 = () => {
   return (
     <>
       <Header />
@@ -65,4 +65,4 @@ const bab_4 = () => {
   );
 };
 
-export default bab_4;
+export default Bab_4;

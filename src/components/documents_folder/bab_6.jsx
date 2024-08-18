@@ -3,7 +3,7 @@ import Header from "../header";
 import Footer from "../footer";
 import { Disclaimer } from "../tools/disclaimer";
 
-const bab_6 = () => {
+const Bab_6 = () => {
   return (
     <>
       <Header />
@@ -97,4 +97,4 @@ const bab_6 = () => {
   );
 };
 
-export default bab_6;
+export default Bab_6;

@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../header";
 import Footer from "../footer";
 
-const bab_5 = () => {
+const Bab_5 = () => {
   return (
     <>
       <Header />
@@ -44,4 +44,4 @@ const bab_5 = () => {
   );
 };
 
-export default bab_5;
+export default Bab_5;
