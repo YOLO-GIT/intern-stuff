@@ -20,7 +20,7 @@ const Header = () => {
           Praktikal Archive
         </span>
       </Navbar.Brand>
-      <div className="flex md:order-2">
+      <div className="flex md:order-2 z-50">
         <Dropdown
           arrowIcon={false}
           inline
