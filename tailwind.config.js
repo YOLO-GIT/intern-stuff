@@ -1,6 +1,6 @@
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
+// const {
+//   default: flattenColorPalette,
+// } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const flowbite = require("flowbite-react/tailwind");
 /** @type {import('tailwindcss').Config} */
