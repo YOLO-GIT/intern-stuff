@@ -2,6 +2,7 @@
 import React from "react";
 import Header from "./header";
 import Footer from "./footer";
+import TC from "../documents/TC.pdf";
 import { Typewriter } from "./tools/typewriter";
 import Image_One from "../assets/img_one.gif";
 import Image_Two from "../assets/warning.png";
@@ -27,8 +28,7 @@ const Home = () => {
               </div>
               Di sini, anda akan dapat info cara - cara mendokumentasikan
               perkara yang melibatkan tugasan anda di firma dan cara - cara
-              mencatatkannya. (Tidak termasuk perkara seperti: format institusi
-              anda dan firma yang anda pilih).
+              mencatatkannya.
             </p>
           </div>
           <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
@@ -74,10 +74,18 @@ const Home = () => {
             </h1>
             <p class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               Sila baca terma dan syarat berikut dengan teliti sebelum
-              menggunakan laman web ini [Link]. Dengan mengakses bahan dan
-              kandungan di sini, anda bersetuju untuk mematuhi syarat yang
-              ditetapkan. Laman web ini menyediakan panduan dan contoh
-              laporan&nbsp;
+              menggunakan laman web ini [
+              <a
+                href={TC} // Replace with the desired page number
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Terms & Condition
+              </a>
+              ]. Dengan mengakses bahan dan kandungan di sini, anda bersetuju
+              untuk mematuhi syarat yang ditetapkan. Laman web ini menyediakan
+              panduan dan contoh laporan&nbsp;
               <span className="font-bold">Latihan Industri</span>&nbsp;untuk
               tujuan pembelajaran dan rujukan. Sebarang penggunaan maklumat di
               luar skop pendidikan, anda perlu rujuk dengan guru atau pensyarah

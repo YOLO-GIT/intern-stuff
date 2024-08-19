@@ -25,8 +25,8 @@ const Pin = () => {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Disclaimer: Panduan ini untuk rujukan sahaja. (Kemungkinan
-                  Panduan yang diberi dari institusi lain agak berbeza)
+                  Disclaimer: Kemungkinan contoh panduan yang diberi berbeza
+                  dengan panduan lain.
                 </span>
               </div>
               <img
