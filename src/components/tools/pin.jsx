@@ -5,7 +5,7 @@ import Image_1 from "../../assets/panduan.png";
 import Image_2 from "../../assets/aniq.png";
 import Image_3 from "../../assets/amili.png";
 import First_pdf from "../../documents/contoh-format-penulisan-laporan-li-terkini.pdf";
-import Full_pdf from "../../documents/full_completed.pdf";
+import Full_pdf from "../../documents/teknikal_50.pdf";
 import Second_pdf from "../../documents/second_example.pdf";
 import Third_pdf from "../../documents/third_example.pdf";
 
