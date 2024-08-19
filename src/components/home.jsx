@@ -73,13 +73,15 @@ const Home = () => {
               Terms & Condition
             </h1>
             <p class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Sila baca terma dan syarat berikut dengan teliti sebelum
+              menggunakan laman web ini [Link]. Dengan mengakses bahan dan
+              kandungan di sini, anda bersetuju untuk mematuhi syarat yang
+              ditetapkan. Laman web ini menyediakan panduan dan contoh
+              laporan&nbsp;
+              <span className="font-bold">Latihan Industri</span>&nbsp;untuk
+              tujuan pembelajaran dan rujukan. Sebarang penggunaan maklumat di
+              luar skop pendidikan, anda perlu rujuk dengan guru atau pensyarah
+              institusi anda.
             </p>
           </div>
           <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
