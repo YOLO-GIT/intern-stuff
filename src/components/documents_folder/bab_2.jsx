@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../header";
 import Footer from "../footer";
+import TC from "../../documents/TC.pdf";
+import Bab_2 from "../../documents/bab_2.pdf";
 
 const Bab_2 = () => {
   return (
@@ -53,10 +55,31 @@ const Bab_2 = () => {
             </p>
             <p className="mb-6 dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               <span className="font-bold text-red-500">Disclaimer:</span>&nbsp;
-              <span className="font-bold">[letak link]</span>&nbsp;Link yang
-              diberi adalah sekadar contoh dan boleh diubah suai atas kehendak
-              anda. Tidak perlu&nbsp;<span className="font-bold">IKUT</span>
-              &nbsp;100% contohnya.
+              <span className="font-bold">
+                [
+                <a
+                  href={Bab_2} // Replace with the desired page number
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  Contoh Bab 2
+                </a>
+                ]
+              </span>
+              &nbsp;Link yang diberi adalah sekadar contoh dan boleh diubah suai
+              atas kehendak anda. Tidak perlu&nbsp;
+              <span className="font-bold">IKUT</span>
+              &nbsp;100% contohnya. Sila rujuk [
+              <a
+                href={TC} // Replace with the desired page number
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Terma & Syarat
+              </a>
+              ] untuk mengetahui dengan lebih lanjut.
             </p>
             <hr className="my-4 border-gray-300 dark:border-gray-700" />
           </div>
