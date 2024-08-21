@@ -4,10 +4,13 @@ import Logo from "../../assets/logo.png";
 import Image_1 from "../../assets/panduan.png";
 import Image_2 from "../../assets/aniq.png";
 import Image_3 from "../../assets/amili.png";
+import Image_4 from "../../assets/ajim.png";
 import First_pdf from "../../documents/contoh-format-penulisan-laporan-li-terkini.pdf";
 import Full_pdf from "../../documents/teknikal_50.pdf";
 import Second_pdf from "../../documents/second_example.pdf";
 import Third_pdf from "../../documents/third_example.pdf";
+import Fourth_pdf from "../../documents/fourth_example.pdf";
+import TC from "../../documents/TC.pdf";
 
 const Pin = () => {
   return (
@@ -50,8 +53,16 @@ const Pin = () => {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Disclaimer: Gunakan Report ini untuk rujukan sahaja. (Link
-                  T&C)
+                  Disclaimer: Gunakan Report ini untuk rujukan sahaja. (
+                  <a
+                    href={TC} // Replace with the desired page number
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Terms & Condition
+                  </a>
+                  )
                 </span>
               </div>
               <img className="w-90 rounded-lg mt-4" src={Logo} alt="YOLO_GIT" />
@@ -71,7 +82,16 @@ const Pin = () => {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Credit: @ <br /> (Link T&C)
+                  Credit: @ <br /> (
+                  <a
+                    href={TC} // Replace with the desired page number
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Terms & Condition
+                  </a>
+                  )
                 </span>
               </div>
               <img className="w-90 rounded-lg mt-4" src={Image_2} alt="aniq" />
@@ -91,10 +111,48 @@ const Pin = () => {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Credit: @ <br /> (Link T&C)
+                  Credit: @ <br /> (
+                  <a
+                    href={TC} // Replace with the desired page number
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Terms & Condition
+                  </a>
+                  )
                 </span>
               </div>
-              <img className="w-90 rounded-lg mt-4" src={Image_3} alt="aniq" />
+              <img className="w-90 rounded-lg mt-4" src={Image_3} alt="limi" />
+            </div>
+          </PinContainer>
+        </div>
+
+        {/* Azim */}
+        <div className="h-[40rem] w-full flex items-center justify-center">
+          <PinContainer
+            title="Contoh Report Penuh #4"
+            href={Fourth_pdf} // Replace with your PDF file path
+          >
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[26rem]">
+              <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
+                Contoh Report #4
+              </h3>
+              <div className="text-base !m-0 !p-0 font-normal">
+                <span className="text-slate-500">
+                  Credit: @ <br /> (
+                  <a
+                    href={TC} // Replace with the desired page number
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Terms & Condition
+                  </a>
+                  )
+                </span>
+              </div>
+              <img className="w-90 rounded-lg mt-4" src={Image_4} alt="bruh" />
             </div>
           </PinContainer>
         </div>
