@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../header";
 import Footer from "../footer";
 import TC from "../../documents/TC.pdf";
-import Bab_4 from "../../documents/bab_4.pdf";
+import Example_4 from "../../documents/bab_4.pdf";
 
 const Bab_4 = () => {
   return (
@@ -56,7 +56,7 @@ const Bab_4 = () => {
               <span className="font-bold">
                 [
                 <a
-                  href={Bab_4} // Replace with the desired page number
+                  href={Example_4} // Replace with the desired page number
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
