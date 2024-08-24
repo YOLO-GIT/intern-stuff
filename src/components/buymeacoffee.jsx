@@ -14,7 +14,7 @@ const BuyMeACoffeeButton = () => {
   }, []);
 
   return (
-    <div className="mx-auto sm:ml-auto mt-2">
+    <div className="">
       <a
         href="https://www.buymeacoffee.com/YOLOGIT"
         className="bmc-button font-bold"
