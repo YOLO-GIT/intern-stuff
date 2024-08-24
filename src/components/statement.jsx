@@ -1,8 +1,9 @@
 // src/components/Home.jsx
 import React from "react";
 import { CardHoverEffect } from "./tools/card-hover";
+import BuyMeACoffeeButton from "./buymeacoffee";
 import Image_Three from "../assets/Kirbo.png";
-import Image_Four from "../assets/qr.jpeg";
+import Image_Four from "../assets/qr.png";
 
 const Statement = () => {
   return (
@@ -52,6 +53,7 @@ const Statement = () => {
               <p class="text-center sm:text-right mt-6 font-semibold text-black md:text-lg max-w-lg">
                 Give me money 🤑
               </p>
+              <BuyMeACoffeeButton />
             </div>
           </div>
         </div>
