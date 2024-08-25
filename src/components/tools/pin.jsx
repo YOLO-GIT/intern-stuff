@@ -5,6 +5,7 @@ import Image_1 from "../../assets/panduan.png";
 import Image_2 from "../../assets/aniq.png";
 import Image_3 from "../../assets/amili.png";
 import Image_4 from "../../assets/ajim.png";
+import Empty_spot from "../../assets/empty_spot.png";
 import First_pdf from "../../documents/contoh-format-penulisan-laporan-li-terkini.pdf";
 import Full_pdf from "../../documents/teknikal_50.pdf";
 import Second_pdf from "../../documents/second_example.pdf";
@@ -111,7 +112,7 @@ const Pin = () => {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Credit: @ <br /> (
+                  Credit: @~Lilian (MLBB) <br /> (
                   <a
                     href={TC} // Replace with the desired page number
                     target="_blank"
@@ -140,7 +141,7 @@ const Pin = () => {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Credit: @ <br /> (
+                  Credit: @azimazimazim <br /> (
                   <a
                     href={TC} // Replace with the desired page number
                     target="_blank"
@@ -153,6 +154,31 @@ const Pin = () => {
                 </span>
               </div>
               <img className="w-90 rounded-lg mt-4" src={Image_4} alt="bruh" />
+            </div>
+          </PinContainer>
+        </div>
+
+        <div className="h-[40rem] w-full flex items-center justify-center">
+          <PinContainer title="Contoh Report Penuh #5">
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[26rem]">
+              <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
+                Empty Spot
+              </h3>
+              <div className="text-base !m-0 !p-0 font-normal">
+                <span className="text-slate-500">
+                  Credit: @ <br /> (
+                  <a
+                    href={TC} // Replace with the desired page number
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Terms & Condition
+                  </a>
+                  )
+                </span>
+              </div>
+              <img className="w-90 rounded-lg mt-4" src={Empty_spot} alt="es" />
             </div>
           </PinContainer>
         </div>
