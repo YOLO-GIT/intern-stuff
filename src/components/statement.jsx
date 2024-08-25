@@ -53,7 +53,7 @@ const Statement = () => {
               <p class="text-center sm:text-right mt-6 font-semibold text-black md:text-lg max-w-lg">
                 Give me money 🤑
               </p>
-              <p className="mx-auto sm:ml-auto mt-2">
+              <p className="ml-auto mt-2">
                 <BuyMeACoffeeButton />
               </p>
             </div>
