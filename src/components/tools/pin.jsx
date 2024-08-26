@@ -83,7 +83,7 @@ const Pin = () => {
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Credit: @ <br /> (
+                  Credit: @amiraniq_ <br /> (
                   <a
                     href={TC} // Replace with the desired page number
                     target="_blank"
