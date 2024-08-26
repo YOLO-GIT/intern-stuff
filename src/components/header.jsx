@@ -43,7 +43,13 @@ const Header = () => {
             <Dropdown.Item href="https://yolo-git.github.io/My-First-Portfolio/">
               My Portfolio
             </Dropdown.Item>
-            <Dropdown.Item>My Tiktok (Coming Soon)</Dropdown.Item>
+            <Dropdown.Item href="https://www.tiktok.com/@espionageextreme">
+              My Tiktok
+            </Dropdown.Item>
+            <Dropdown.Divider />
+            <Dropdown.Item as={Link} to="/logout">
+              Logout
+            </Dropdown.Item>
           </motion.div>
         </Dropdown>
 
