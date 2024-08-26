@@ -6,6 +6,7 @@ import Documents from "./components/document.jsx";
 import Slide from "./components/contoh_slide.jsx";
 import Note from "./components/contoh_note.jsx";
 import About from "./components/about-us.jsx";
+import Logout from "./components/missing_page/s.jsx";
 import Intro from "./components/documents_folder/intro.jsx";
 import Bab_1 from "./components/documents_folder/bab_1.jsx";
 import Bab_2 from "./components/documents_folder/bab_2.jsx";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contoh_slide" element={<Slide />} />
         <Route path="/contoh_nota" element={<Note />} />
         <Route path="/about_us" element={<About />} />
+        <Route path="/logout" element={<Logout />} />
         <Route path="/documents_folder/intro" element={<Intro />} />
         <Route path="/documents_folder/bab_1" element={<Bab_1 />} />
         <Route path="/documents_folder/bab_2" element={<Bab_2 />} />
