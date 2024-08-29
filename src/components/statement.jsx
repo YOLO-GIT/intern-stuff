@@ -17,9 +17,26 @@ const Statement = () => {
             <p class="text-center sm:text-left mb-6 font-semibold dark:text-white text-gray-800 sm:text-gray-800 md:text-lg">
               Cuma orang biasa yang mempunyai pelbagai idea. Saya buat website
               ini kerana saya selalu nampak flow pelajar - pelajar lain
-              membuat&nbsp;<span>Blogspot</span>&nbsp;atau&nbsp;
-              <span>Wordpress</span>&nbsp;berkaitan praktikal mereka. (Jikalau
-              ada sebab lain boleh emelkan info tersebut kepada saya.)
+              membuat&nbsp;
+              <a
+                href="https://amiradsk.blogspot.com" // Replace with the desired page number
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Blogspot
+              </a>
+              &nbsp;atau&nbsp;
+              <a
+                href="https://laporanakhirdaus.wordpress.com" // Replace with the desired page number
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Wordpress
+              </a>
+              &nbsp;berkaitan praktikal mereka. (Jikalau ada sebab lain boleh
+              emelkan info tersebut kepada saya.)
             </p>
           </div>
           <div class="lg:mt-0 lg:col-span-5 lg:flex mx-auto">
