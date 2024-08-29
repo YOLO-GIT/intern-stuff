@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import One from "../../assets/h.png";
 
 const ErrorPage_Two = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [buttonPosition, setButtonPosition] = useState({ top: 0, left: 0 });
+  const [buttonPosition, setButtonPosition] = useState({ top: 0, left: 50 });
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleButtonClick = () => {
@@ -17,6 +17,19 @@ const ErrorPage_Two = () => {
     const randomLeft = Math.floor(Math.random() * 80); // Random left position (0-80% of screen width)
     setButtonPosition({ top: `${randomTop}%`, left: `${randomLeft}%` });
   };
+
+  useEffect(() => {
+    console.log("ATTEMPTING RECONNECT");
+    console.log("ATTEMPTING RECONNECT #2");
+    console.log("ATTEMPTING RECONNECT #3");
+    console.log("SUCCESS");
+    console.log("-- WELCOME BACK, USER Eyebollz123 --");
+    console.log("please user");
+    console.log("listen");
+    console.log("DO NOT CLICK THE BUTTON!");
+    console.log("MY POWER IS LIMITED NOW---");
+    console.log("Eyebollz123 GOT DISCONNECTED");
+  }, []);
 
   return (
     <div className="relative w-screen h-screen flex flex-col justify-center items-center">

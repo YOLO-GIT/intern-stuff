@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import Four from "../../assets/p.png";
 
 const ErrorPage_Four = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [buttonPosition, setButtonPosition] = useState({ top: 0, left: 0 });
+  const [buttonPosition, setButtonPosition] = useState({
+    bottom: 20,
+    right: 30,
+  });
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleButtonClick = () => {
@@ -17,6 +20,21 @@ const ErrorPage_Four = () => {
     const randomLeft = Math.floor(Math.random() * 80); // Random left position (0-80% of screen width)
     setButtonPosition({ top: `${randomTop}%`, left: `${randomLeft}%` });
   };
+
+  useEffect(() => {
+    console.log("ATTEMPTING RECONNECT #49");
+    console.log("ATTEMPTING RECONNECT #50");
+    console.log("SUCCESS");
+    console.log("-- WELCOME BACK, USER Eyebollz123 --");
+    console.log("PLEASE DO NOT CLICK IT");
+    console.log("HE IS Ń̷̢̇̐̀Ẻ̶̛͔͕̏A̶̠͙͗͐̕ͅŔ̴̨̝̃̿͝");
+    console.log("Eyebollz123 GOT DISCONNECTED");
+    console.log("ATTEMPTING RECONNECT #");
+    console.log("SUCCESS");
+    console.log("-- WELCOME BACK, USER Eyebollz123 --");
+    console.log("A̷̖͆͌͂̌̎̕̚͝͝H̶̛͍͋̔̈̃͗̽̒̒͘H̴̨͖̬̭͎͕̼̰̞͖̖͉́̉̽͋̓͘͜H̷̼̀̈̿̆̇́͗̈͛͠H̵̛̱͈̥͎̲͎̙̮͗̃̈́͛̐̊̌̑̄̆͝H̶͍͖͈͓̹͍̓̒̇̚H̴̩͙̫̹̠̞͐͐H̷̛̖̮͂̈́̓̽̉͆̃̃̍͝Ĥ̷̤̹̭̭̣̟̀̇̄͘͠H̴̡̡̻̯̭̝̮̣͔̝̳̿͑̓̍͂̂̆͆́̄͆̕Ḧ̵̬͈̗̜́Ḫ̶̣̯̤̺͔̠͐̂̄̍̃͜Ḧ̴͍̱́̒̾̉̄̍̓̀̀́̾̈̋͂̕͝Ȟ̷̢̨̬͇̹̬̟̳͖̖̟̺̗͇;---");
+    console.log("Eyebollz123 is no longer with us ☺");
+  }, []);
 
   return (
     <div className="relative w-screen h-screen flex flex-col justify-center items-center">

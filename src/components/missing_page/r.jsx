@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import Three from "../../assets/l.png";
 
 const ErrorPage_Three = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [buttonPosition, setButtonPosition] = useState({ top: 0, left: 0 });
+  const [buttonPosition, setButtonPosition] = useState({ bottom: 0, left: 20 });
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleButtonClick = () => {
@@ -18,6 +18,22 @@ const ErrorPage_Three = () => {
     setButtonPosition({ top: `${randomTop}%`, left: `${randomLeft}%` });
   };
 
+  useEffect(() => {
+    console.log("ATTEMPTING RECONNECT #21");
+    console.log("ATTEMPTING RECONNECT #22");
+    console.log("ATTEMPTING RECONNECT #23");
+    console.log("ATTEMPTING RECONNECT #24");
+    console.log("ATTEMPTING RECONNECT #25");
+    console.log("ATTEMPTING RECONNECT #26");
+    console.log("ATTEMPTING RECONNECT #27");
+    console.log("SUCCESS");
+    console.log("-- WELCOME BACK, USER Eyebollz123 --");
+    console.log("he's limiting my power");
+    console.log("NO NO NO NO");
+    console.log("MUST MAINTAIN---");
+    console.log("Eyebollz123 GOT DISCONNECTED");
+  }, []);
+
   return (
     <div className="relative w-screen h-screen flex flex-col justify-center items-center">
       {/* Full-screen image */}
@@ -25,7 +41,7 @@ const ErrorPage_Three = () => {
 
       {/* Hidden secret button */}
       <div
-        className="absolute bottom-10 w-40 h-24 flex justify-center items-center"
+        className="absolute bottom-10 w-48 h-24 flex justify-center items-center"
         onMouseEnter={() => {
           setIsHovered(true);
         }}

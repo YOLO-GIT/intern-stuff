@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Fatal_Error_img from "../../assets/fatal_error.png";
 
 const Fatal_Error = () => {
   const [isHovered, setIsHovered] = useState(false);
+
+  useEffect(() => {
+    console.log("Imgur url");
+  }, []);
 
   return (
     <div className="relative w-screen h-screen flex flex-col justify-center items-center">
@@ -15,7 +19,7 @@ const Fatal_Error = () => {
 
       {/* Hidden secret button */}
       <div
-        className="absolute bottom-10 w-40 h-24 flex justify-center items-center"
+        className="absolute bottom-10 w-48 h-24 flex justify-center items-center"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
