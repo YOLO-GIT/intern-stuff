@@ -47,7 +47,7 @@ const Header = () => {
               My Tiktok
             </Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Item as={Link} to="/logout">
+            <Dropdown.Item as="a" href="unused.html">
               Logout
             </Dropdown.Item>
           </motion.div>
