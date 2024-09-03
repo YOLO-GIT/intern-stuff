@@ -97,6 +97,16 @@ const Header = () => {
           Contoh Nota
         </NavLink>
         <NavLink
+          to="/contoh_lain"
+          className={({ isActive }) =>
+            isActive
+              ? "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link-active text-blue-600"
+              : "text-center font-semibold sm:border-none sm:text-sm border-b-2 border-gray-600 text-xl p-1 nav-link text-white"
+          }
+        >
+          Contoh Lain
+        </NavLink>
+        <NavLink
           to="/about_us"
           className={({ isActive }) =>
             isActive
