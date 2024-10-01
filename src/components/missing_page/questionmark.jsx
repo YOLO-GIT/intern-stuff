@@ -4,6 +4,10 @@ import Fatal_Error_img from "../../assets/fatal_error.png";
 const Fatal_Error = () => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const handleButtonClick = () => {
+    navigate("/secret_link"); // Redirect to the target route
+  };
+
   useEffect(() => {
     console.log("Imgur url");
   }, []);
