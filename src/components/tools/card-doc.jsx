@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     title: "Bab 4",
-    description: "Projek yang anda uat untuk firma anda. (Secara asas)",
+    description: "Projek yang anda buat untuk firma anda. (Secara asas)",
     link: "#/documents_folder/bab_4", // Updated path
   },
   {
