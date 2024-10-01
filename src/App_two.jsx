@@ -9,6 +9,7 @@ import Null_Two from "./components/missing_page/a.jsx";
 import Null_Three from "./components/missing_page/r.jsx";
 import Null_Four from "./components/missing_page/e.jsx";
 import Null_Five from "./components/missing_page/questionmark.jsx";
+import Secret_link from "./components/missing_page/secret_link.jsx";
 
 function App_Two() {
   return (
@@ -20,6 +21,7 @@ function App_Two() {
         <Route path="/null_three" element={<Null_Three />} />
         <Route path="/null_four" element={<Null_Four />} />
         <Route path="/null_five" element={<Null_Five />} />
+        <Route path="/secret_link" element={<Secret_link />} />
       </Routes>
     </Router>
   );
