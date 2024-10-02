@@ -1,4 +1,4 @@
-<p align="center"><img src="./intern-stuff/logo.webp"></p>
+<p align="center"><img src="./logo.webp"></p>
 
 ## Description
 
