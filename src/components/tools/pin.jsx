@@ -5,12 +5,13 @@ import Image_1 from "../../assets/panduan.png";
 import Image_2 from "../../assets/aniq.png";
 import Image_3 from "../../assets/amili.png";
 import Image_4 from "../../assets/ajim.png";
-import Empty_spot from "../../assets/empty_spot.png";
+import Image_5 from "../../assets/hudi.png";
 import First_pdf from "../../documents/contoh-format-penulisan-laporan-li-terkini.pdf";
 import Full_pdf from "../../documents/teknikal_50.pdf";
 import Second_pdf from "../../documents/second_example.pdf";
 import Third_pdf from "../../documents/third_example.pdf";
 import Fourth_pdf from "../../documents/fourth_example.pdf";
+import Fifth_pdf from "../../documents/fifth_example.pdf";
 import TC from "../../documents/TC.pdf";
 
 const Pin = () => {
@@ -158,15 +159,16 @@ const Pin = () => {
           </PinContainer>
         </div>
 
+        {/* Hadi */}
         <div className="h-[40rem] w-full flex items-center justify-center">
-          <PinContainer title="Contoh Report Penuh #5">
+          <PinContainer title="Contoh Report Penuh #5" href={Fifth_pdf}>
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[26rem]">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
-                Empty Spot
+                Contoh Report #5
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500">
-                  Credit: @ <br /> (
+                  Credit: @yiedragnel <br /> (
                   <a
                     href={TC} // Replace with the desired page number
                     target="_blank"
@@ -178,7 +180,7 @@ const Pin = () => {
                   )
                 </span>
               </div>
-              <img className="w-90 rounded-lg mt-4" src={Empty_spot} alt="es" />
+              <img className="w-90 rounded-lg mt-4" src={Image_5} alt="hudi" />
             </div>
           </PinContainer>
         </div>

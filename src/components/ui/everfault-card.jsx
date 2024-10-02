@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useMotionTemplate, motion } from "framer-motion";
 import { cn } from "../../lib/utils";
 
-export const EvervaultCard = ({ text, className }) => {
+export const EvervaultCard = ({ text, className, url }) => {
   let mouseX = useMotionValue(0);
   let mouseY = useMotionValue(0);
 
@@ -40,10 +40,13 @@ export const EvervaultCard = ({ text, className }) => {
           randomString={randomString}
         />
         <div className="relative z-10 flex items-center justify-center">
-          <div className="relative h-44 w-44  rounded-full flex items-center justify-center text-white font-bold text-4xl">
+          <a
+            href={url}
+            className="relative h-44 w-44 rounded-full flex items-center justify-center text-white font-bold text-4xl"
+          >
             <div className="absolute w-full h-full bg-white/[0.8] dark:bg-black/[0.8] blur-sm rounded-full" />
             <span className="dark:text-white text-black z-20">{text}</span>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -58,7 +61,7 @@ export function CardPattern({ mouseX, mouseY, randomString }) {
     <div className="pointer-events-none">
       <div className="absolute inset-0 rounded-2xl  [mask-image:linear-gradient(white,transparent)] group-hover/card:opacity-50"></div>
       <motion.div
-        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-green-500 to-blue-700 opacity-0  group-hover/card:opacity-100 backdrop-blur-xl transition duration-500"
+        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-red-700 to-red-900 opacity-0  group-hover/card:opacity-100 backdrop-blur-xl transition duration-500"
         style={style}
       />
       <motion.div

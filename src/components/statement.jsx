@@ -53,23 +53,21 @@ const Statement = () => {
       </section>
 
       <section class="bg-slate-200">
-        <div class="container mx-auto px-4 py-8 lg:py-16">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
-            <div class="w-full">
-              <img
-                class="mx-auto sm:mx-0 rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
-                src={Image_Four}
-                alt="mockup"
-              />
-            </div>
-            <div class="flex flex-col justify-center mt-5 sm:mt-0">
-              <h1 class="text-center sm:text-right max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-black">
-                Ingin support saya?
-              </h1>
-              <p class="text-center sm:text-right mt-6 font-semibold text-black md:text-lg max-w-lg">
-                Give me money 🤑
-              </p>
-            </div>
+        <div class="grid max-w-screen-lg px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div class="lg:mt-0 lg:col-span-5 lg:flex">
+            <img
+              class="mx-auto sm:mx-0 rounded-2xl w-60 sm:w-96 transform transition-transform hover:scale-105 ease-out duration-500 hover:shadow-lg"
+              src={Image_Four}
+              alt="mockup"
+            />
+          </div>
+          <div class="flex flex-col justify-center mx-auto sm:mr-auto lg:col-span-7 mt-5 sm:mt-0 rounded-md p-6">
+            <h1 class="text-center sm:text-right max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-black">
+              Ingin support saya?
+            </h1>
+            <p class="text-center sm:text-right mt-6 font-semibold text-black md:text-lg max-w-lg">
+              Give me money 🤑
+            </p>
           </div>
         </div>
       </section>

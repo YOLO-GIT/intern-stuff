@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import Fatal_Error_img from "../../assets/fatal_error.png";
 
 const Fatal_Error = () => {
   const [isHovered, setIsHovered] = useState(false);
+
+  const navigate = useNavigate();
 
   const handleButtonClick = () => {
     navigate("/secret_link"); // Redirect to the target route
@@ -28,7 +31,10 @@ const Fatal_Error = () => {
         onMouseLeave={() => setIsHovered(false)}
       >
         {isHovered && (
-          <button className="bg-black* text-white text-center font-semibold p-3 rounded-lg transition-all duration-300 ease-in-out hover:bg-red-800">
+          <button
+            className="bg-black text-white text-center font-semibold p-3 rounded-lg transition-all duration-300 ease-in-out hover:bg-red-800"
+            onClick={handleButtonClick}
+          >
             long time no see ☺
           </button>
         )}
