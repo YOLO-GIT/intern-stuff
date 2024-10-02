@@ -15,7 +15,7 @@ function App_Two() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Logout />} />
+        <Route path="/logout" element={<Logout />} />
         <Route path="/null_one" element={<Null_One />} />
         <Route path="/null_two" element={<Null_Two />} />
         <Route path="/null_three" element={<Null_Three />} />
