@@ -5,6 +5,7 @@
 @layer components {
     body::-webkit-scrollbar {
         display: none;
+        scrollbar-width: none;
     }
 
     .background-animate {
