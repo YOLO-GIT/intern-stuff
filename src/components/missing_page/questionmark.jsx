@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import Fatal_Error_img from "../../assets/fatal_error.png";
 
@@ -10,10 +10,6 @@ const Fatal_Error = () => {
   const handleButtonClick = () => {
     navigate("/secret_link"); // Redirect to the target route
   };
-
-  useEffect(() => {
-    console.log("Imgur url");
-  }, []);
 
   return (
     <div className="relative w-screen h-screen flex flex-col justify-center items-center">
